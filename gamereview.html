@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+
+<head>
+<title>Submit a Review</title>
+<link type="text/css" rel="stylesheet" href="css/anglintoptencss.css" />
+</head>
+<body>
+<form action="http://localhost/postReview.asp" method="GET" />
+<h1>Submit a Review</h1>
+<table>
+<tr>
+<th>Reviewer name: </th>
+<td><input type="text" input name="name" /></td>
+</tr>
+<tr>
+<th>Game: </th>
+<td> <input type="text" input name="name" /></td>
+</tr>
+<tr>
+<th>Platform: </th>
+<td><select name="platform">
+<option value="PS2">PS2 </option>
+<option value="PC">Personal computer </option> 
+<option value="WII">WII </option>
+<option value="XBox">XBox </option>
+</select>
+</td>
+</tr>
+<tr>
+<th>Rating: </th>
+<td><input type="radio" name="rating" value=1 />1
+<input type="radio" name="rating" value=2 />2
+<input type="radio" name="rating" value=3 />3
+<input type="radio" name="rating" value=4 />4
+<input type="radio" name="rating" value=5 />5
+</td>
+</tr>
+<tr>
+<th>Review: </th>
+<td><textarea name="review" rows="10" cols="60"></textarea>
+</td>
+</tr>
+
+<tr>
+<td></td>
+<td><input type="submit" value="Submit Review"></td>
+</table>
+
+</form>

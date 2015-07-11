@@ -1,0 +1,118 @@
+		html {
+			background-color: #909090 ;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		
+		.logo {
+			border: 5px outset black;
+			border-radius: 25px;
+			padding: 10px;
+			margin-right: 1125px;			
+		}
+		
+		a { 
+			text-decoration: none;
+			}
+		a:visited {
+			color: #F0F0F0;
+			}
+		a:link {
+			color: #000000;
+			}
+		a:hover {
+			color: #FF0000;
+			}
+		a:active {
+			color: #181818;
+		}	
+		
+		
+		
+			
+		h1 {
+			color: black;
+			font-size: 2emem;
+			font-family: Georgia, Architect, Sans-serif;
+			font-style: bold;
+			border-left: 3px outset black;
+			border-top: 3px outset black;
+			border-right: 3px outset black;
+			border-bottom: 3px outset black;
+			display: inline;
+			padding: 7px;
+		}
+		
+		h3 {
+			font-size: 1em;
+			font-style: italic;
+			font-family: Comic Sans, sans serif, Arial;
+			color: white;
+			border: 2px solid black;
+			border-radius: 25px;
+			display: inline;
+			padding: 5px;
+		}
+		   
+			
+		ul {
+			font-family: Comic Sans, Monospace, Arial;
+			font-size: 1em;
+			color: black;
+			font-style: italic;
+			clear: left;
+		}
+		   
+		
+		.align {
+			float: left;
+			margin: 5px;
+		}
+		
+		.border {
+			border: 4px solid black;
+		}
+		
+		.weekly {
+			padding: 20px;
+		}
+		
+		.weeklygame {
+			clear: left;
+		}
+		
+		.table {
+			width: 50%;
+			margin: 15px;
+		}
+		
+		.first {
+			font-size:1em;
+		}
+		.second {
+			font-size: 1em;
+		}
+		.third {
+			font-size: 1em;
+		}
+		
+		#sidebar{
+			border-style: outset;
+			border-width: 2px;
+			padding: 15px; 
+			float: right;
+		}
+		
+		#sidebar li{
+			list-style-type: upper-roman;
+		}
+		
+		.contact {
+		margin: 15px;
+		border: 3px outset black;		
+		}
+		
+			
+		
+		
+		
